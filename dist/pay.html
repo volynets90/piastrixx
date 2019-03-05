@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./css/libs.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row content">
+                <div class="logo">
+                        <a href="index.html"><img src="./img/logo_white_animated.svg" class="logo__img" alt="logo"></a> 
+                </div>
+                <div class="rigthSide">
+                    <span class="mail"><a href="mailto:support@piastrix.com">support@piastrix.com</a></span>
+                    <div class="language">
+                        <span class="en">English</span>
+                        <span class="ru active">Русский</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="allContent">
+        <section class="invoice">
+            <div class="container">
+                <div class="invoice__content mr-ml_auto">
+                    <span class="bigBlueText invoice__number">Номер инвойса 101</span>
+                    <div class="row invoice__recipient">
+                        <span class="recipient">Получатель</span>
+                        <span class="recipient_name ml-auto">Max Shop</span>
+                    </div>
+                    <div class="row invoice__descriptiont">
+                        <span class="description">Описание</span>
+                        <span class="description_text ml-auto">Recive Max Shop</span>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="row invoice__amount">
+                        <span class="bigBlueText">Сумма</span>
+                        <span class="bigBlueText ml-auto">100 RUB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <section class="payForm">
+            <div class="container"> 
+                <div class="formBlock">
+                        <img class="img mr-ml_auto" src="./img/visa_mc.png" alt="payLogo">
+                     <form class="form mailForm">
+                        <input class="inputEmail" placeholder="Input your Email" type="text">
+                        <button class="btn" type="sybmit">ОПЛАТИТЬ</button>
+                     </form>
+                     <form class="form hide submitForm">
+                        <input readonly class="amount" type="text">
+                        <input readonly class="currency" type="text">
+                        <input readonly class="submitForm__description" type="text">
+                        <input readonly class="payway" type="text">
+                        <input readonly class="shop_id" type="text">
+                        <input readonly class="shop_order_id" type="text">
+                        <input readonly class="sign" type="text">
+                        <button class="btn" type="sybmit">ОПЛАТИТЬ</button>
+                    </form>
+                </div>
+            </div>
+      </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__content  mr-ml_auto">
+
+                <span class="footer__contacts"><a href="https://www.google.com/">КОНТАКТЫ</a> </span>
+
+                <div class="paymentsLogo">
+                    <img src="./img/visa.png" alt="visa">
+                    <img src="./img/masterCard.png" alt="masterCard">
+                    <img src="./img/pciDss.png" alt="pciDss">
+                </div>
+
+                <div class="language">
+                    <span class="en">English</span>
+                    <span class="ru active">Русский</span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
